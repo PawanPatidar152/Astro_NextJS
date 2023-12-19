@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import NumerologyForm from "./NumerologyForm";
 import NumerologyResult from "./NumerologyResult";
 import NumerologyReading from "./NumerologyReading";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 import { chaldeanValues } from "../Constants/constants";
 
 const NumerologyCalculator = () => {

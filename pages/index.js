@@ -2,7 +2,7 @@
 import React from "react";
 import NumerologyCalculator from "../components/NumerologyCalculator";
 import DarkModeToggle from "../components/DarkModeToggle";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 
 const Home = () => {
   return (

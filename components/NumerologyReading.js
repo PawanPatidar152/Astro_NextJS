@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../styles/globals.css";
+// import "../styles/globals.css";
 import { Destiny, SoulArray, DreamArray } from "../Constants/constants";
 const NumerologyReading = ({
   letterChaldeanMap,
