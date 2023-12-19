@@ -1,0 +1,56 @@
+
+  .input-box {
+    display: flex;
+    border-radius: 23px;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid grey;
+    box-shadow: 10px 10px 5px #adb7bb;
+  }
+  .input-box button:hover {
+    cursor: pointer;
+  }
+  
+  #mode-toggle {
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+  }
+  #mode-toogle-text{
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .text-interpretation {
+    animation: slideUp 2s ease-in-out;
+  }
+  
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: white;
+}
+.navbar-light {
+  background-color: #f8f9fa; 
+}
+
+.navbar-dark {
+  background-color: #343a40; 
+  color: white; 
+}
