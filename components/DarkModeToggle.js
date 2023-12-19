@@ -6,7 +6,12 @@ const DarkModeToggle = () => {
 
   useEffect(() => {
     const savedMode = localStorage.getItem("darkMode");
-    setIsDarkMode(savedMode === "true");
+    if (savedMode !== null) {
+      setIsDarkMode(savedMode === "true");
+      // Apply the saved mode to the body classList
+      document.body.classList.toggle("dark-mode", savedMode === "true");
+    }
+    // setIsDarkMode(savedMode === "true");
   }, []);
 
   const toggleMode = () => {
